@@ -1,0 +1,15 @@
+GET http://localhost:3000/lists
+
+###
+GET http://localhost:3000/lists/5c13229b-e8fe-4ece-b0d7-33c0c28db224
+
+###
+POST http://localhost:3000/lists
+Content-Type: application/json
+
+{
+  "name": "My List2"
+}
+
+###
+GET http://localhost:8000/lists
